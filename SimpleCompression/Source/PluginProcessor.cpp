@@ -66,7 +66,6 @@ juce::AudioProcessorValueTreeState::ParameterLayout SimpleCompressionAudioProces
     auto pAttack = std::make_unique<juce::AudioParameterFloat>("attack", "Attack", 0.0, 10.0, 3.0);
     auto pRelease = std::make_unique<juce::AudioParameterFloat>("release", "Release", 0.0, 10.0, 3.0);
 
-    //params.push_back(std::move(pClipChoice));
     params.push_back(std::move(pInputGain));
     params.push_back(std::move(pOutputGain));
     params.push_back(std::move(pThreshold));

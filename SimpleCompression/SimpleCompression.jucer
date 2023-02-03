@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="aPGc6x" name="SimpleCompression" projectType="audioplug"
               useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
-              jucerFormatVersion="1">
+              jucerFormatVersion="1" companyName="Lace DSP">
   <MAINGROUP id="dXXYEc" name="SimpleCompression">
     <GROUP id="{278C6F22-5B74-6398-2BD4-54E86D1B6DF3}" name="Source">
       <FILE id="hzSjvN" name="PluginProcessor.cpp" compile="1" resource="0"
